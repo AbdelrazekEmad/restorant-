@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url(fonts/AlegreyaSans-Regular.ttf) format("truetype");
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url(fonts/AlegreyaSans-Medium.ttf) format("truetype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Alegreya Sans";
+  src: url(fonts/AlegreyaSans-Bold.ttf) format("truetype");
+  font-weight: bold;
+}
+
+.heading {
+  font-family: "Alegreya Sans";
+}
+
+.test-background {
+  height: 600px;
+  background-image: url(../img/6-768x768.jpg), url(../img/card-3.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+  background-size: 20%;
+}
