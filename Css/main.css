@@ -165,7 +165,7 @@ nav li a {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .landpage {
     height: 400px;
   }
@@ -416,7 +416,7 @@ nav li a {
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .dishes .cards .card {
     width: 100%;
     float: none;
@@ -507,8 +507,7 @@ nav li a {
   .Testimonials .content {
     /* margin: 0 auto; */
     padding-top: 60px;
-}
-
+  }
 }
 /* End Testimonials */
 
@@ -556,7 +555,6 @@ nav li a {
   .contact_information iframe {
     width: 100%;
   }
-  
 }
 
 /* End Where are we? */
@@ -619,7 +617,7 @@ nav li a {
   }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width: 400px) {
   .footer-1 .boxes .box {
     width: 100%;
     float: nont;
@@ -693,6 +691,25 @@ nav li a {
   color: #686868;
 }
 
+@media screen and (max-width: 768px) {
+  .secret .content {
+    width: 100%;
+    float: none;
+  }
+
+  .secret img {
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .secret .box {
+    float: none;
+    width: 100%;
+  }
+}
 /* End Our little secret */
 
 /* Start Numbers */
@@ -719,6 +736,18 @@ nav li a {
   font-size: 20px;
 }
 
+@media screen and (max-width: 400px) {
+  .numbers {
+    padding: 20px 0;
+  }
+  .numbers .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
 /* End Numbers */
 
 /* Start features */
@@ -737,6 +766,18 @@ nav li a {
   font-size: 18px;
   color: #686868;
   margin: 30px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .features img {
+    width: 100%;
+  }
+
+  .features .content {
+    width: 100%;
+    float: none;
+    padding: 0;
+  }
 }
 
 /* End features */
@@ -776,6 +817,22 @@ nav li a {
   line-height: 1.8;
   font-weight: 400;
   font-family: "Alegreya", serif;
+}
+@media screen and (max-width: 768px) {
+  .our_secrets .box {
+    float: left;
+    width: 50%;
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .our_secrets .box {
+    float: none;
+    width: 100%;
+    margin-bottom: 40px;
+    padding-right: 0;
+  }
 }
 
 /* End our_secrets */
@@ -858,6 +915,27 @@ nav li a {
   color: #999;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 768px) {
+  .chefs .boxes .box {
+    width: 45%;
+    float: left;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.27);
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .chefs .boxes .box {
+    width: 100%;
+    float: none;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+}
 
 /* End Chefs */
 
@@ -878,6 +956,17 @@ nav li a {
 
 .meat_banar .content p {
   font-size: 22px;
+}
+
+@media screen and (max-width:400px) {
+  .meat_banar .content {
+    text-align: center;
+    width: 200px;
+    margin: 40px auto;
+  }
+  .meat_banar .content p {
+    font-size: 15px;
+  }
 }
 
 /* End main dishes banar  */
@@ -915,6 +1004,26 @@ nav li a {
   color: #686868;
 }
 
+@media screen and (max-width:768px) {
+  .dishes .box {
+    width: 50%;
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
+@media screen and (max-width:400px) {
+  .dishes .box {
+    width: 100%;
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+}
+
 /* End main dishes menu */
 
 /* Start fish dishes banar */
@@ -936,6 +1045,19 @@ nav li a {
 .fish_banar .content p {
   font-size: 22px;
 }
+
+@media screen and (max-width:400px) {
+  .fish_banar .content {
+    text-align: center;
+    width: 200px;
+    margin: 40px auto;
+  }
+  .fish_banar .content p {
+    font-size: 15px;
+  }
+}
+
+
 /* End fish dishes banar */
 
 /* Start Dessert dishes banar */
@@ -956,6 +1078,17 @@ nav li a {
 
 .dessert_banar .content p {
   font-size: 22px;
+}
+
+@media screen and (max-width:400px) {
+  .dessert_banar .content {
+    text-align: center;
+    width: 200px;
+    margin: 40px auto;
+  }
+  .dessert_banar .content p {
+    font-size: 15px;
+  }
 }
 /* End Dessert dishes banar */
 
