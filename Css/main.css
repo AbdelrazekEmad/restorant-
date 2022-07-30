@@ -17,7 +17,7 @@ body {
 }
 
 .contaner {
-  width: 1100px;
+  width: 85%;
   margin: 0px auto;
 }
 
@@ -39,6 +39,12 @@ section {
   margin-bottom: 50px;
 }
 
+li {
+  list-style: none;
+}
+
+/* Start nav links */
+
 nav ul {
   text-align: center;
 }
@@ -53,6 +59,33 @@ nav li a {
   color: black;
   font-size: 20px;
 }
+/* End nav links */
+/* Start options  */
+
+.options {
+  background-color: white;
+  position: fixed;
+  top: 30%;
+  right: 0;
+  padding: 15px 8px;
+  border-radius: 5px 0 0 5px;
+}
+
+.options i {
+  font-size: 22px;
+  color: #666;
+  transition: all 0.4s;
+}
+
+.options i:hover {
+  color: #218fe6;
+}
+
+.options .first {
+  margin-bottom: 15px;
+}
+
+/* End options  */
 
 /* Start landing page  */
 
@@ -101,12 +134,24 @@ nav li a {
   background-color: #c1ab84;
   color: white;
   border: 2px solid #c1ab84;
+  transition: all 0.4s;
+}
+
+.btn-1:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
 }
 
 .btn-2 {
   margin-right: 10px;
   color: black;
+  transition: all 0.4s;
   border: 2px solid white;
+}
+
+.btn-2:hover {
+  opacity: 0.8;
 }
 
 /* End landing page  */
@@ -139,13 +184,26 @@ nav li a {
 }
 
 .family .content ul {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 .family .content ul li {
   margin-bottom: 20px;
   font-size: 18px;
   font-weight: 400;
+  color: #686868;
+}
+
+.icon_still {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: white;
+  background-color: #c1ab84;
+  padding: 15px 0;
+  text-align: center;
+  margin-right: 10px;
 }
 
 /* End family */
@@ -162,7 +220,7 @@ nav li a {
   padding-right: 60px;
 }
 
-.reviewers img {
+.reviewers .image {
   width: 50%;
 }
 
@@ -174,7 +232,7 @@ nav li a {
 }
 
 .reviewers .content ul {
-  margin-left: 35px;
+  margin-left: 10px;
   margin-top: 20px;
 }
 
@@ -182,6 +240,29 @@ nav li a {
   margin-bottom: 15px;
   font-size: 18px;
   color: #686868;
+}
+
+.reviewers .content li i {
+  color: #c1ab84;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .reviewers .content {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    float: none;
+  }
+  .reviewers .image {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+}
+
+@media screen and (max-width: 400px) {
+
 }
 /* End reviewers */
 
@@ -274,6 +355,23 @@ nav li a {
   border-radius: 50%;
   font-weight: 600;
   color: #838c92;
+  transition: all 0.5s;
+}
+
+.Testimonials .content .btn-arrow:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid white;
+}
+
+.Testimonials .content .btn-arrow {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  border: 2px solid #838c92;
+  border-radius: 50%;
+  font-weight: 600;
+  color: #838c92;
 }
 
 /* End Testimonials */
@@ -301,7 +399,7 @@ nav li a {
 }
 
 .contact_information .content ul {
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .contact_information .content li {
@@ -773,11 +871,3 @@ nav li a {
 }
 
 /* End Contact  */
-
-.test_search {
-  height: 600px;
-  background-image: url(../img/6-768x768.jpg), url(../img/card-5.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom left , top right;
-  background-size: 30%;
-}
