@@ -39,6 +39,17 @@ section {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 400px) {
+  .heading {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .info {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+}
+
 li {
   list-style: none;
 }
@@ -156,17 +167,17 @@ nav li a {
 
 @media screen and (max-width: 400px) {
   .landpage {
-    height: 350px;
+    height: 250px;
   }
   .landpage .content {
-    width: 300px;
+    width: 200px;
     margin: 35px auto;
   }
   .landpage .content img {
-    width: 100px;
+    width: 80px;
   }
   .landpage .content h1 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .landpage .content p {
@@ -174,7 +185,7 @@ nav li a {
     margin-bottom: 15px;
   }
   .btn {
-    padding: 10px 15px;
+    padding: 6px 8px;
     border-radius: 4px;
     font-size: 12px;
   }
@@ -184,8 +195,9 @@ nav li a {
 
 /* Start family */
 
-.family img {
+.family .image {
   width: 45%;
+  float: left;
   /* height: 600px; */
 }
 
@@ -230,6 +242,48 @@ nav li a {
   padding: 15px 0;
   text-align: center;
   margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .family .image {
+    width: 85%;
+    margin: 0 auto;
+    float: none;
+  }
+  .family .content {
+    width: 85%;
+    float: none;
+    margin-top: 0;
+    padding-left: 0;
+  }
+  .icon_still {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: white;
+    background-color: #c1ab84;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .family .image {
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+  }
+  .family .content {
+    width: 100%;
+    float: none;
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .family .content p {
+    font-size: 18px;
+    padding-right: 0;
+  }
 }
 
 /* End family */
@@ -286,8 +340,6 @@ nav li a {
   }
 }
 
-@media screen and (max-width: 400px) {
-}
 /* End reviewers */
 
 /* Start banar  */
@@ -324,6 +376,14 @@ nav li a {
 .dishes button {
   padding: 11px 20px;
   margin-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .dishes .cards .card {
+    width: 50%;
+    float: left;
+    padding: 15px;
+  }
 }
 
 /* End Our flag dishes */
@@ -396,6 +456,12 @@ nav li a {
   border-radius: 50%;
   font-weight: 600;
   color: #838c92;
+}
+
+@media screen and (max-width: 768px) {
+  .Testimonials .content {
+    width: auto;
+  }
 }
 
 /* End Testimonials */
@@ -485,6 +551,15 @@ nav li a {
 .footer-2 .content p {
   color: #777;
   font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer-1 .boxes .box {
+    width: 50%;
+    float: left;
+    padding: 0 10px;
+    margin-bottom: 10px;
+  }
 }
 
 /* End Footer-1 */
