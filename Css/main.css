@@ -154,6 +154,32 @@ nav li a {
   opacity: 0.8;
 }
 
+@media screen and (max-width: 400px) {
+  .landpage {
+    height: 350px;
+  }
+  .landpage .content {
+    width: 300px;
+    margin: 35px auto;
+  }
+  .landpage .content img {
+    width: 150px;
+  }
+  .landpage .content h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .landpage .content p {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  .btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+}
+
 /* End landing page  */
 
 /* Start family */
@@ -257,12 +283,10 @@ nav li a {
   .reviewers .image {
     width: 90%;
     margin: 0 auto;
-
   }
 }
 
 @media screen and (max-width: 400px) {
-
 }
 /* End reviewers */
 
